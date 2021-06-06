@@ -12,6 +12,12 @@ body {
   margin: 1% auto;
 }
 
+.footer {
+  text-align: center;
+  font-size: 20px;
+  margin: auto;
+}
+
 .drum-mach {
   border: 1px solid orange;
   display: -webkit-box;

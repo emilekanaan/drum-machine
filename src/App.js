@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import Drumpad from './components/Drumpad';
 import Display from './components/Display';
+import Footer from './components/Footer';
 
 const bankOne = [
   {
@@ -139,7 +140,8 @@ let App = () => {
   }
     
     return (
-      <div id='drum-machine'>      
+      <div id='drum-machine'> 
+           
 
         <div className='drum-mach'>     
           <Display 
@@ -158,7 +160,7 @@ let App = () => {
                 
           </div>
         </div>  
-
+            <Footer />
       </div>
     );
     
